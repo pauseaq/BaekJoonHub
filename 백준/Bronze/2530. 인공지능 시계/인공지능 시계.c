@@ -10,7 +10,5 @@ int main() {
   } while (b >= 60) {
       a++;
       b -= 60;
-  } while (a >= 24) {
-      a -= 24;
-  } printf("%d %d %d\n", a, b, c);
+  } while (a >= 24) a -= 24; printf("%d %d %d\n", a, b, c);
 }
